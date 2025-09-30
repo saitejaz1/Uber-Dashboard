@@ -161,7 +161,7 @@ if 'Booking Value' in df.columns:
 df_f = df[mask].copy()
 
 # ------------------- Top-level header + KPIs in a card-like row -------------------
-st.title("🚗 Uber Ride Analytics — 2024 (Restyled)")
+st.title("🚕Uber Ride Analytics — 2024")
 st.markdown("A refreshed UI while keeping your analysis unchanged.")
 
 k1, k2, k3, k4 = st.columns([1.2,1,1,1])
@@ -323,5 +323,6 @@ with st.expander("Notes & Assumptions (click to open)"):
     """)
 
 # End
+
 
 
