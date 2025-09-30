@@ -67,7 +67,7 @@ def load_coords(path, pickup=True):
     return coords[['Location', 'Latitude', 'Longitude']]
 
 # ------------------- User paths (update these if needed) -------------------
-MAIN_PATH = r"C:\Users\Saiteja\Desktop\vs projects\dashboard\group3_dataset.csv"
+MAIN_PATH = r"https://raw.githubusercontent.com/saitejaz1/Uber-Dashboard/refs/heads/main/group3_dataset.csv"
 PICKUP_COORDS_PATH = r"https://raw.githubusercontent.com/saitejaz1/Uber-Dashboard/refs/heads/main/pickup_location_coords_delhi.csv"
 DROP_COORDS_PATH = r"https://raw.githubusercontent.com/saitejaz1/Uber-Dashboard/refs/heads/main/drop_location_coords_delhi.csv"
 
@@ -323,4 +323,5 @@ with st.expander("Notes & Assumptions (click to open)"):
     """)
 
 # End
+
 
