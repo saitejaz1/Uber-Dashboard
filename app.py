@@ -68,8 +68,8 @@ def load_coords(path, pickup=True):
 
 # ------------------- User paths (update these if needed) -------------------
 MAIN_PATH = r"C:\Users\Saiteja\Desktop\vs projects\dashboard\group3_dataset.csv"
-PICKUP_COORDS_PATH = r"C:\Users\Saiteja\Desktop\vs projects\dashboard\pickup_location_coords_delhi.csv"
-DROP_COORDS_PATH = r"C:\Users\Saiteja\Desktop\vs projects\dashboard\drop_location_coords_delhi.csv"
+PICKUP_COORDS_PATH = r"https://raw.githubusercontent.com/saitejaz1/Uber-Dashboard/refs/heads/main/pickup_location_coords_delhi.csv"
+DROP_COORDS_PATH = r"https://raw.githubusercontent.com/saitejaz1/Uber-Dashboard/refs/heads/main/drop_location_coords_delhi.csv"
 
 # Load data
 with st.spinner("Loading dataset..."):
@@ -323,3 +323,4 @@ with st.expander("Notes & Assumptions (click to open)"):
     """)
 
 # End
+
